@@ -89,3 +89,15 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+/*
+To unpack
+
+1. Run script and debug the patched exe
+2. Find last function call that call pointer in stack in IDA. Example "call    [rsp+1E598h+var_B430]". Breakpoint.
+3. Step into. Patch the jne
+4. Break at the first CALL in the shellcode
+4. bp rtldecompressbuffer
+5. Dump second arg
+6. Dump the decompressed buffer
+*/
