@@ -1,5 +1,5 @@
-# IDA_plugins_scripts
-Collection of my IDA plugins/scripts
+# Analysis_scripts
+Collection of my scripts and IDA scripts to boost my malware analysis productivity.
 
 ## funccall_highlighter.py
 An IDA Pro plugin that highlights function calls within the Graph/Linear view and Hex-Rays pseudocode view, enabling better readability for function pointer and function call identification which assist you to focus only on the function call while analyze the code.
