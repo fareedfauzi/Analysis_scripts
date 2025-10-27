@@ -90,7 +90,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-/*
+'''
 To unpack
 
 1. Run script and debug the patched exe
@@ -100,4 +100,5 @@ To unpack
 4. bp rtldecompressbuffer
 5. Dump second arg
 6. Dump the decompressed buffer
-*/
+'''
+
